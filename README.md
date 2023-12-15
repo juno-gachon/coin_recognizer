@@ -6,7 +6,7 @@
 ![coin_recogization result](https://github.com/juno-gachon/coin_recognizer/blob/master/image/coin_result.jpg)
 
 #### Basic information
-distance from target : 20cm
+distance from target : 20cm  
 picture source : Galaxy S10+, zoom level 2  
 version :
 - Python 3.9.16
