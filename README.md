@@ -1,11 +1,4 @@
 # Coin_recognizer
-<p align="center">
-  <img src="C:\Users\User\OneDrive\바탕 화면\공부 자료\대학\2023\2023-2\오픈소스SW\coin_recognizer\image\coin_result.jpg">
-</p>
-
-![coin_recognization result](https://github.com/juno-gachon/coin_recognizer/blob/master/image/coin_result.jpg)
-
-![bill_recognization_result](https://github.com/juno-gachon/coin_recognizer/blob/master/image/bill_result.jpg)
 
 
 #### Basic information
@@ -33,6 +26,16 @@ Discover the coins by detecting the circle in the image and classify them into 5
 #### Purpose of the development
 ---
 To utilize technologies such as extracting raw materials from images learned through open-source SW lectures and to develop programs that can be used in practice through them <br></br>
+
+#### Result
+<p align="center">
+  <img src="C:\Users\User\OneDrive\바탕 화면\공부 자료\대학\2023\2023-2\오픈소스SW\coin_recognizer\image\coin_result.jpg">
+</p>
+The results are pretty decent even though not perfect. There are limitations in recognition when coins are present alongside bills, so it's not flawless. However, ultimately, you can measure the amounts of bills and coins in the image, as shown in the photo.
+
+![coin_recognization result](https://github.com/juno-gachon/coin_recognizer/blob/master/image/coin_result.jpg)
+
+![bill_recognization_result](https://github.com/juno-gachon/coin_recognizer/blob/master/image/bill_result.jpg)
 
 #### The problem we were facing when we developed or what features we wanted to add later
 ---
