@@ -29,11 +29,12 @@ To utilize technologies such as extracting raw materials from images learned thr
 
 #### Result
 ---
-The results are pretty decent even though not perfect. There are limitations in recognition when coins are present alongside bills, so it's not flawless. However, ultimately, you can measure the amounts of bills and coins in the image, as shown in the photo.
+The results are pretty decent even though not perfect. There are limitations in recognition when coins are present alongside bills, so it's not flawless. However, ultimately, you can measure the amounts of bills and coins in the image, as shown in the photo.<br></br>
 
 ![coin_recognization result](https://github.com/juno-gachon/coin_recognizer/blob/master/image/coin_result.jpg)
 
 ![bill_recognization_result](https://github.com/juno-gachon/coin_recognizer/blob/master/image/bill_result.jpg)
+<br></br>
 
 #### The problem we were facing when we developed or what features we wanted to add later
 ---
