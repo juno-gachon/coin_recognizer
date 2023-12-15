@@ -29,7 +29,7 @@ To utilize technologies such as extracting raw materials from images learned thr
 
 #### Result
 ---
-The results are pretty decent even though not perfect. There are limitations in recognition when coins are present alongside bills, so it's not flawless. However, ultimately, you can measure the amounts of bills and coins in the image, as shown in the photo.<br></br>
+The results are pretty decent even though not perfect. There are limitations in recognition when coins are present alongside bills, so it's not flawless. However, ultimately, we can measure the amounts of bills and coins in the image, as shown in the photo.<br></br>
 
 ![coin_recognization result](https://github.com/juno-gachon/coin_recognizer/blob/master/image/coin_result.jpg)
 
