@@ -3,17 +3,18 @@
   <img src="C:\Users\User\OneDrive\바탕 화면\공부 자료\대학\2023\2023-2\오픈소스SW\coin_recognizer\image\coin_result.jpg">
 </p>
 
+![coin_recognization](https://github.com/juno-gachon/coin_recognizer/blob/suyeon/image/coin_result.jpg)
+
 #### Basic information
 distance from target : 20cm
-picture source : Galaxy S10+, zoom level 2
+picture source : Galaxy S10+, zoom level 2  
 version :
-
-Python 3.9.16
-cv2 4.7.0
+- Python 3.9.16
+- cv2 4.7.0
 
 #### Team Memeber Introduction  
 ---
-__We are tema os81__
+__We are team os81__
 - 정준호 (Team Leader) / <https://github.com/juno-gachon> / Major in Computer Engineering
 - 정수연 / <https://github.com/yeoxxy> / Major in English Literature&Language (Double Major in Software)
 - 정준묵 / <https://github.com/Mooki2> / Major in Software
