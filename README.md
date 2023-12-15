@@ -22,7 +22,7 @@ __We are tema os81__
 
 #### About Project
 ---
-Discover the coins by detecting the circle in the image and classify them into 500won, 100won, 50won, and 10won according to the radius of the coin. Print the values of the coins the user has classified on top of the image so that the user knows how much the coins are, depending on their size. From the image of mixed bills and coins, the coins are sorted by extracting a circle. The bills are sorted together depending on their shape(rectangle) so that how much each bill is. <br></br>
+Discover the coins by detecting the circle in the image and classify them into 500won, 100won, 50won, and 10won according to the radius of the coin. Print the values of the coins the user has classified on top of the image so that the user knows how much the coins are, depending on their size. From the image of mixed bills and coins, the coins are sorted by extracting a circle. The bills are sorted together depending on their color(blue, green, red) so that how much each bill is. <br></br>
 
 #### Purpose of the development
 ---
@@ -42,7 +42,7 @@ By default, this code is __python-based__ and must be installed in your environm
 3. If you want to use the program personally in addition to the image provided by 'coin_recognizer', modify the src part
 ```src =  cv2.imread("Attach the image path that you want to detect or categorize")```
 
-The program detects circular objects that exist in the image and classifies the coins using their radii. It calculates the sum of the value of the coins in the image. (For bills, it is classified using the size of the rectangle.)
+The program detects circular objects that exist in the image and classifies the coins using their radii. It calculates the sum of the value of the coins in the image. (For bills, it is classified using the color of the rectangle.)
 
 #### References
 ---
