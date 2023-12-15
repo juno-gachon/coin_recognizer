@@ -6,10 +6,17 @@ img = src.copy()
 gray = cv2.cvtColor(src, cv2.COLOR_BGR2GRAY)
 hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
 
-# Detecting circle for coins
+
+## Detecting coins
+
+# Detect circles
 circles = cv2.HoughCircles(gray, cv2.HOUGH_GRADIENT, 1, 150, param1 = 350, param2 = 50, minRadius= 75, maxRadius = 150)
 
+
 ## Detecting Bills
+## Detect contours within the range of HSV for each bills
+## Then check if its size is big enough to be recognized as bill
+
 # define range of red(5000won) color in HSV
 lower_red = np.array([0, 10, 50])
 upper_red = np.array([10, 50, 191])
@@ -34,19 +41,20 @@ mask_yellow = cv2.inRange(hsv, lower_yellow, upper_yellow)
 
 # find contours in the color mask
 contours_red, _ = cv2.findContours(mask_red, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
-red_count = 0
-
 contours_green, _ = cv2.findContours(mask_green, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
-green_count = 0
-
 contours_blue, _ = cv2.findContours(mask_blue, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+contours_yellow,_ = cv2.findContours(mask_yellow,cv2.RETR_TREE,cv2.CHAIN_APPROX_SIMPLE)
+
+# amount of detected contours
+red_count = 0
+yellow_count = 0
+green_count = 0
 blue_count = 0
 
-contours_yellow,_ = cv2.findContours(mask_yellow,cv2.RETR_TREE,cv2.CHAIN_APPROX_SIMPLE)
-yellow_count = 0
 
+## Marking bills and coins, then calculate its value
 
-## Marking bills and coins
+## Marking bills + calculate value
 # loop through the color contours and draw a rectangle around them
 for cnt in contours_red:
     contour_area = cv2.contourArea(cnt)
@@ -80,6 +88,8 @@ for cnt in contours_yellow:
         cv2.putText(img, 'Yellow', (x, y-10), cv2.FONT_HERSHEY_SIMPLEX, 0.9, (0, 255, 255), 2)
         yellow_count+=50000
 
+
+## Marking Coins + calculate value of coins by its radius
 total_coin = 0
 
 if circles is not None:
@@ -105,7 +115,10 @@ if circles is not None:
     # print coin value at detected coins.
     cv2.putText(img, str(value), (x-20, y+10), cv2.FONT_HERSHEY_PLAIN, 3, (255, 0, 255), 5)
 
-# print total amount of money with yellow text in top left corner
+
+## Print total values for each coins and bills
+
+# print total amount of coins with yellow text in top left corner
 cv2.putText(img, "total coins: "+str(total_coin)+"won", (10, 70), cv2.FONT_HERSHEY_PLAIN, 5, (0, 255, 255), 5)
 
 # print total amount of bills bellow coins
