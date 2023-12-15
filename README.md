@@ -28,6 +28,7 @@ Discover the coins by detecting the circle in the image and classify them into 5
 To utilize technologies such as extracting raw materials from images learned through open-source SW lectures and to develop programs that can be used in practice through them <br></br>
 
 #### Result
+---
 <p align="center">
   <img src="C:\Users\User\OneDrive\바탕 화면\공부 자료\대학\2023\2023-2\오픈소스SW\coin_recognizer\image\coin_result.jpg">
 </p>
