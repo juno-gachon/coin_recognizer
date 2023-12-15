@@ -3,9 +3,9 @@
   <img src="C:\Users\User\OneDrive\바탕 화면\공부 자료\대학\2023\2023-2\오픈소스SW\coin_recognizer\image\coin_result.jpg">
 </p>
 
-![coin_recogization result](https://github.com/juno-gachon/coin_recognizer/blob/master/image/coin_result.jpg)
+![coin_recognization result](https://github.com/juno-gachon/coin_recognizer/blob/master/image/coin_result.jpg)
 
-![bill_recognization_result](https://github.com/juno-gachon/coin-recognizer/blob/mastet/image/bill_result.jpg)
+![bill_recognization_result](https://github.com/juno-gachon/coin-recognizer/blob/master/image/bill_result.jpg)
 
 
 #### Basic information
