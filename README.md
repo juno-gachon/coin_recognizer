@@ -4,12 +4,12 @@
 </p>
 
 #### Basic information
-distance from target : 20cm
-picture source : Galaxy S10+, zoom level 2
-version :
-
+distance from target : 20cm  
+picture source : Galaxy S10+, zoom level 2  
+version :  
 Python 3.9.16
 cv2 4.7.0
+<br></br>
 
 #### Team Memeber Introduction  
 ---
@@ -17,7 +17,7 @@ __We are tema os81__
 - 정준호 (Team Leader) / <https://github.com/juno-gachon> / Major in Computer Engineering
 - 정수연 / <https://github.com/yeoxxy> / Major in English Literature&Language (Double Major in Software)
 - 정준묵 / <https://github.com/Mooki2> / Major in Software
-- 정호준 / <https://github.com/Hostoday> / Major in Software  
+- 정호준 / <https://github.com/Hostoday> / Major in Software<br></br>
 
 
 #### About Project
