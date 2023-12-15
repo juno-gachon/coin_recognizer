@@ -1,8 +1,4 @@
 # Coin_recognizer
-<p align="center">
-  <img src="image/coin_result.jpg">
-</p>
-
 ![coin_recogization result](https://github.com/juno-gachon/coin_recognizer/blob/master/image/coin_result.jpg)
 
 #### Basic information
