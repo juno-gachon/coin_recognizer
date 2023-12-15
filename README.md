@@ -39,7 +39,7 @@ By default, this code is __python-based__ and must be installed in your environm
 
 1. open command line or terminal
 2. run file coin_recognizer.py with Python
-3. If you want to use the program personally in addition to the image provided by 'coin_recognizer', modify the src part
+3. If you want to use the program personally in addition to the image provided by 'coin_recognizer', modify the src part  
 ```src =  cv2.imread("Attach the image path that you want to detect or categorize")```
 
 The program detects circular objects that exist in the image and classifies the coins using their radii. It calculates the sum of the value of the coins in the image. (For bills, it is classified using the color of the rectangle.)
