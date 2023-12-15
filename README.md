@@ -1,6 +1,6 @@
 # Coin_recognizer
 <p align="center">
-  <img src="C:\Users\User\OneDrive\바탕 화면\공부 자료\대학\2023\2023-2\오픈소스SW\coin_recognizer\image\coin_result.jpg">
+  <img src="image/coin_result.jpg">
 </p>
 
 #### Basic information
@@ -31,3 +31,22 @@ To utilize technologies such as extracting raw materials from images learned thr
 #### The problem we were facing when we developed or what features we wanted to add later
 ---
 Specifying the color range was difficult because each image's brightness was different. During development, 'color_detection' was designated according to the images we would mainly use. In actual use, we thought that modifications were needed so that the program could work well in other images. <br></br>
+
+#### Run method
+---
+<br></br>
+By default, this code is __python-based__ and must be installed in your environment when running (see basic information at the top of the _readme.md file_ for Python's version)
+
+1. open command line or terminal
+2. run file coin_recognizer.py with Python
+3. If you want to use the program personally in addition to the image provided by 'coin_recognizer', modify the src part
+```src =  cv2.imread("Attach the image path that you want to detect or categorize")```
+
+The program detects circular objects that exist in the image and classifies the coins using their radii. It calculates the sum of the value of the coins in the image. (For bills, it is classified using the size of the rectangle.)
+
+#### References
+---
+<br></br>
+- <https://www.geeksforgeeks.org/multiple-color-detection-in-real-time-using-python-opencv/>
+- <https://pyimagesearch.com/2014/08/04/opencv-python-color-detection/>
+- <https://github.com/tom9744/HCI_CoinCalculator>
