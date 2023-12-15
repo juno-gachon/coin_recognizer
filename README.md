@@ -1,5 +1,7 @@
 # Coin_recognizer
 ![coin_recogization result](https://github.com/juno-gachon/coin_recognizer/blob/master/image/coin_result.jpg)
+![coin_recogization result2](https://github.com/juno-gachon/coin_recognizer/blob/master/image/bill_result.jpg)
+<br></br>
 
 #### Basic information
 distance from target : 20cm  
