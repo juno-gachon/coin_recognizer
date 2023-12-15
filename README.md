@@ -5,6 +5,9 @@
 
 ![coin_recogization result](https://github.com/juno-gachon/coin_recognizer/blob/master/image/coin_result.jpg)
 
+![bill_recognization_result](https://github.com/juno-gachon/coin-recognizer/blob/mastet/image/bill_result.jpg)
+
+
 #### Basic information
 distance from target : 20cm  
 picture source : Galaxy S10+, zoom level 2  
