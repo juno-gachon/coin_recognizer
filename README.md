@@ -5,7 +5,7 @@
 
 ![coin_recognization result](https://github.com/juno-gachon/coin_recognizer/blob/master/image/coin_result.jpg)
 
-![bill_recognization_result](https://github.com/juno-gachon/coin-recognizer/blob/master/image/bill_result.jpg)
+![bill_recognization_result](https://github.com/juno-gachon/coin_recognizer/blob/master/image/bill_result.jpg)
 
 
 #### Basic information
